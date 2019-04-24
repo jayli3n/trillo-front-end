@@ -1,2 +1,2 @@
 # trillo-front-end
-A mockup hotel booking static site.
+A mockup hotel booking site.
