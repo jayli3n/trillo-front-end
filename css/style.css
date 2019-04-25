@@ -322,13 +322,14 @@ body {
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
-  border-bottom: 1px solid var(--color-grey-light-2); }
+  border-bottom: 1px solid var(--color-grey-light-2);
+  font-size: 1.4rem;
+  color: var(--color-grey-dark-2); }
 
 .description {
   background-color: #fff;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   padding: 3rem;
-  font-size: 1.4rem;
   flex: 0 0 60%;
   margin-right: 4.5rem; }
 
@@ -346,3 +347,48 @@ body {
     border: 3px solid #fff; }
     .recommend__photo:not(:last-of-type) {
       margin-right: -1.5rem; }
+
+.user-review {
+  flex: 1; }
+
+.review {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  padding: 3rem;
+  margin-bottom: 3.5rem;
+  position: relative;
+  overflow: hidden; }
+  .review__text {
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 10; }
+  .review__user {
+    display: flex;
+    align-items: center; }
+  .review__photo {
+    border-radius: 50%;
+    height: 5.5rem;
+    width: auto; }
+  .review__user-box {
+    margin-right: auto;
+    margin-left: .8rem; }
+  .review__user-name {
+    color: var(--color-grey-dark-1);
+    font-size: 1.3rem;
+    font-weight: 600; }
+  .review__user-date {
+    font-size: 1rem;
+    color: var(--color-grey-dark-3); }
+  .review__user-rating {
+    color: var(--color-primary);
+    font-size: 2.7rem;
+    font-weight: 300; }
+  .review::before {
+    content: "\201C";
+    position: absolute;
+    top: -2.75rem;
+    left: -1rem;
+    line-height: 1;
+    font-size: 20rem;
+    color: var(--color-grey-light-2);
+    font-family: sans-serif; }

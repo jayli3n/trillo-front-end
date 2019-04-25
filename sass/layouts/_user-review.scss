@@ -1,6 +1,62 @@
 .user-review{
+	flex: 1;
+}
+
+.review{
 	background-color: #fff;
 	box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
 	padding: 3rem;
-	flex: 1;
+	margin-bottom: 3.5rem;
+	position: relative;
+	overflow: hidden;
+
+	&__text{
+		margin-bottom: 2rem;
+		position: relative;
+		z-index: 10;
+	}
+
+	&__user{
+		display: flex;
+		align-items: center;
+	}
+
+	&__photo{
+		border-radius: 50%;
+		height: 5.5rem;
+		width: auto;
+	}
+
+	&__user-box{
+		margin-right: auto;
+		margin-left: .8rem;
+	}
+
+	&__user-name{
+		color: var(--color-grey-dark-1);
+		font-size: 1.3rem;
+		font-weight: 600;
+	}
+
+	&__user-date{
+		font-size: 1rem;
+		color: var(--color-grey-dark-3);
+	}
+
+	&__user-rating{
+		color: var(--color-primary);
+		font-size: 2.7rem;
+		font-weight: 300;
+	}
+
+	&::before{
+		content: "\201C";
+		position: absolute;
+		top: -2.75rem;
+		left: -1rem;
+		line-height: 1;
+		font-size: 20rem;
+		color: var(--color-grey-light-2);
+		font-family: sans-serif;
+	}
 }
