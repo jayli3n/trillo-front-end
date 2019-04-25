@@ -314,9 +314,14 @@ body {
   .btn-inline:hover {
     color: var(--color-grey-dark-1);
     border-color: var(--color-grey-dark-1); }
+    .btn-inline:hover span {
+      margin-left: 8px; }
   .btn-inline:focus {
     outline: none;
     animation: pulsate 1s infinite; }
+  .btn-inline span {
+    margin-left: 3px;
+    transition: margin-left .2s; }
 
 .details {
   display: flex;
@@ -349,7 +354,11 @@ body {
       margin-right: -1.5rem; }
 
 .user-review {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .review {
   background-color: #fff;
@@ -392,3 +401,48 @@ body {
     font-size: 20rem;
     color: var(--color-grey-light-2);
     font-family: sans-serif; }
+
+.cta {
+  text-align: center;
+  padding: 3.5rem 0;
+  background-color: #fff; }
+  .cta__text {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem; }
+  .cta__btn {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary)); }
+    .cta__btn > * {
+      transition: all .3s ease-in-out;
+      display: inline-block;
+      height: 100%;
+      width: 100%; }
+    .cta__btn--visible {
+      padding: 2rem 7.5rem; }
+    .cta__btn--invisible {
+      padding: 2rem 0;
+      position: absolute;
+      left: 0;
+      top: -100%;
+      opacity: 0; }
+    .cta__btn:hover {
+      background-image: linear-gradient(to right bottom, var(--color-primary), var(--color-primary-dark)); }
+    .cta__btn:hover .cta__btn--visible {
+      transform: translateY(100%);
+      opacity: 0; }
+    .cta__btn:hover .cta__btn--invisible {
+      top: 0;
+      opacity: 1; }
+    .cta__btn:focus {
+      outline: none;
+      animation: 1s pulsate infinite; }

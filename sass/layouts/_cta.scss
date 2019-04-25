@@ -1,0 +1,63 @@
+.cta{
+	text-align: center;
+	padding: 3.5rem 0;
+	background-color: #fff;
+
+	&__text{
+		text-transform: uppercase;
+		font-size: 2rem;
+		font-weight: 300;
+		margin-bottom: 2.5rem;
+	}
+
+	&__btn{
+		position: relative;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		font-weight: 300;
+		border-radius: 100px;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		overflow: hidden;
+		background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary));
+
+		& > *{
+			transition: all .3s ease-in-out;
+			display: inline-block;
+			height: 100%;
+			width: 100%;
+		}
+
+		&--visible{
+			padding: 2rem 7.5rem;
+		}
+
+		&--invisible{
+			padding: 2rem 0;
+			position: absolute;
+			left: 0;
+			top: -100%;
+			opacity: 0;
+		}
+		
+		&:hover{
+			background-image: linear-gradient(to right bottom, var(--color-primary), var(--color-primary-dark));
+		}
+
+		&:hover &--visible{
+			transform: translateY(100%);
+			opacity: 0;
+		}
+
+		&:hover &--invisible{
+			top: 0;
+			opacity: 1;
+		}
+
+		&:focus{
+			outline: none;
+			animation: 1s pulsate infinite;
+		}
+	}
+}
