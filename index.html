@@ -11,6 +11,58 @@
         <title>Trillo &mdash; Your all-in-one hotel booking app</title>
     </head>
     <body>
-        <h1 class="">Hello World!</h1>
+        <!-- container -->
+        <div class="container">
+            <!-- header -->
+            <header class="header">
+                <div class="title">
+                    <img src="img/logo.png" alt="trillo logo" class="title__logo">
+                    <div class="title__name">Trillo</div>
+                </div>
+                
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href='img/sprite.svg#icon-magnifying-glass'></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href='img/sprite.svg#icon-bookmark'></use>
+                        </svg>
+                        <span class="user-nav__notifications">9</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href='img/sprite.svg#icon-chat'></use>
+                        </svg>
+                        <span class="user-nav__notifications">13</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img class='user-nav__user-photo' src="img/user.jpg" alt="user photo">
+                        <span class="user-nav__username">Jay</span>
+                    </div>
+                </nav>
+
+            </header>
+            
+            <!-- content -->
+            <div class="content">
+                <!-- sidebar -->
+                <nav class="sidebar">
+                    Navigation
+                </nav>
+
+                <!-- hotel-view -->
+                <main class="hotel-view">
+                    Hotel View
+                </main>
+            </div>
+
+        </div>
     </body>
 </html>
