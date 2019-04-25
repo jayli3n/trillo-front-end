@@ -23,3 +23,14 @@ body{
 
 	min-height: 100vh;
 }
+
+.container{
+	max-width: 120rem;
+	margin: 8rem auto;
+	background-color: #fff;
+	box-shadow: var(--shadow-dark);
+}
+
+.content{
+	display: flex;
+}

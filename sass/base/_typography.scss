@@ -1,0 +1,39 @@
+.paragraph{
+	
+	&:not(:last-of-type){
+		margin-bottom: 2rem;
+	}
+}
+
+.list{
+	margin: 3rem 0;
+	list-style: none;
+	padding: 3rem 0;
+	border-top: 1px solid var(--color-grey-light-2);
+	border-bottom: 1px solid var(--color-grey-light-2);
+
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item{
+		flex: 0 0 50%;
+		margin-bottom: .7rem;
+	}
+
+	&__item::before{
+		content: "";
+		display: inline-block;
+		height: 1.2rem;
+		width: 1.2rem;
+		margin-right: .7rem;
+
+		//older browsers
+		//background-image: url(../img/svg/chevron-thin-right.svg);
+		//background-size: cover;
+
+		background-color: var(--color-primary);
+		-webkit-mask-image: url(../img/svg/chevron-thin-right.svg);
+		-webkit-mask-size: cover;
+		mask-size: cover;
+	}
+}

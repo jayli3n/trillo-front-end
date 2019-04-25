@@ -1,0 +1,36 @@
+.details{
+	display: flex;
+	padding: 4.5rem;
+	background-color: var(--color-grey-light-1);
+	border-bottom: 1px solid var(--color-grey-light-2);
+}
+
+.description{
+	background-color: #fff;
+	box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
+	padding: 3rem;
+	font-size: 1.4rem;
+
+	flex: 0 0 60%;
+	margin-right: 4.5rem;
+}
+
+.recommend{
+	font-size: 1.3rem;
+	color: var(--color-grey-dark-3);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__photo{
+		box-sizing: content-box;
+		border-radius: 50%;
+		height: 4rem;
+		width: 4rem;
+		border: 3px solid #fff;
+
+		&:not(:last-of-type){
+			margin-right: -1.5rem;
+		}
+	}
+}
