@@ -7,6 +7,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	@include respond(V){
+		flex-wrap: wrap;
+		height: 11rem;
+		align-content: space-around;
+	}
 }
 
 .title{
@@ -29,6 +35,14 @@
 	align-items: center;
 	justify-content: center;
 
+	@include respond(V){
+		order: 1;
+		flex: 0 0 100%;
+		background-color: var(--color-grey-light-2);
+		margin: 0 0rem;
+		justify-content: flex-start;
+	}
+
 	&__input{
 		font-family: inherit;
 		font-size: inherit;
@@ -41,10 +55,19 @@
 		transition: all .2s;
 		margin-right: -2.5rem;
 
+		@include respond(V){
+			margin-right: 0;
+			width: 90%;
+		}
+
 		&:focus{
 			outline: none;
 			width: 100%;
 			background-color: var(--color-grey-light-3);
+
+			@include respond(V){
+				width: 90%;
+			}
 		}
 
 		&::-webkit-input-placeholder{

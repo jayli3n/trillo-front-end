@@ -28,6 +28,11 @@
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		padding: 1.5rem 3rem;
+
+		@include respond(V){
+			font-size: 1.8rem;
+			padding: 1rem 2rem;
+		}
 	}
 
 	&__stars{
@@ -65,17 +70,29 @@
 		color: #fff;
 		margin-left: 3rem;
 		padding: 0 2.25rem;
+
+		@include respond(V){
+			padding: 0 1.5rem;
+		}
 	}
 
 	&__rating-average{
 		font-size: 2.25rem;
 		font-weight: 300;
 		margin-bottom: -3px;
+
+		@include respond(V){
+			font-size: 1.8rem;
+		}
 	}
 
 	&__rating-count{
 		font-size: .8rem;
 		text-transform: uppercase;
+
+		@include respond(V){
+			font-size: .5rem;
+		}
 	}
 }
 

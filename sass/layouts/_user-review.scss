@@ -14,6 +14,11 @@
 	position: relative;
 	overflow: hidden;
 
+	@include respond(III){
+		padding: 2.5rem;
+		margin-bottom: 2rem;
+	}
+
 	&__text{
 		margin-bottom: 2rem;
 		position: relative;

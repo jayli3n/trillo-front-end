@@ -1,0 +1,24 @@
+
+
+//desktop first strategy
+//media query manager.
+//1em = 16px
+//don't use rem.
+
+@mixin respond($breakpoint){
+	@if($breakpoint == I){
+		@media only screen and (max-width: 75em){ @content }	//1200px
+	}
+	@if($breakpoint == II){
+		@media only screen and (max-width: 68.75em){ @content }	//1100px
+	}
+	@if($breakpoint == III){
+		@media only screen and (max-width: 56.25em){ @content }	//900px
+	}
+	@if($breakpoint == IIII){
+		@media only screen and (max-width: 39em){ @content }	//624px
+	}
+	@if($breakpoint == V){
+		@media only screen and (max-width: 31.25em){ @content }	//500px
+	}
+}

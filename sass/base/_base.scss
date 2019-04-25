@@ -9,6 +9,10 @@
 html{
 	font-size: 62.5%; //so that 1rem = 10px since default was 1rem = 16px. 10px/16px = 62.5%
 	box-sizing: border-box;
+
+	@include respond(II){
+		font-size: 50%;
+	}
 }
 
 body{
@@ -29,8 +33,18 @@ body{
 	margin: 8rem auto;
 	background-color: #fff;
 	box-shadow: var(--shadow-dark);
+
+	@include respond(I){
+		margin: 0;
+		max-width: 100%;
+		width: 100%;
+	}
 }
 
 .content{
 	display: flex;
+
+	@include respond(III){
+		flex-direction: column;
+	}
 }

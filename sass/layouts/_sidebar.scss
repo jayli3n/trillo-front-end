@@ -5,7 +5,6 @@
 	flex-direction: column;
 	justify-content: space-between;
 	color: #fff;
-
 }
 
 .side-nav{
@@ -13,11 +12,25 @@
 	font-size: 1.4rem;
 	margin-top: 3.5rem;
 
+	@include respond(III){
+		display: flex;
+		margin: 0;
+	}
+
 	&__item{
 		position: relative;
 
 		&:not(:last-child){
 			margin-bottom: .5rem;
+
+			@include respond(III){
+				margin: 0;
+				border-right: 1px solid var(--color-grey-dark-3);
+			}
+		}
+
+		@include respond(III){
+			flex: 1;
 		}
 	}
 
@@ -59,6 +72,15 @@
 			text-decoration: none;
 			text-transform: uppercase;
 			padding: 1.5rem 3rem;
+
+			@include respond(III){
+				justify-content: center;
+				padding: 1.8rem;
+			}
+			@include respond(V){
+				flex-direction: column;
+				padding: 1.3rem .5rem;
+			}
 		}
 	}
 
@@ -67,6 +89,13 @@
 		height: 1.75rem;
 		fill: var(--color-grey-light-1);
 		margin-right: 1.75rem;
+
+		@include respond(V){
+			width: 1.5rem;
+			height: 1.5rem;
+			margin-right: 0;
+			margin-bottom: .7rem;
+		}
 	}
 }
 
@@ -75,6 +104,10 @@
 	color: var(--color-grey-light-4);
 	text-align: center;
 	padding: 2.5rem;
+
+	@include respond(III){
+		display: none;
+	}
 }
 
 .jayli3{
