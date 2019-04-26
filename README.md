@@ -18,6 +18,7 @@ Designed by Jonas Schmedtmann, implemented by me.
 ---
 The website is fully responsive thanks to `flexbox`.
 
+[![responsive demo](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")
 
 
 #### Hover Menues:
@@ -90,6 +91,3 @@ This is achieved by placing a `::before` pseudo element right ontop of the butto
     "build-css": "npm-run-all compile-sass concat-css prefix-css compress-css"
   }
 ```
-
-
-
