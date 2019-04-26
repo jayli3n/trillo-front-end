@@ -144,6 +144,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+		transition: all .15s;
+	}
+
+	&__icon-box:hover &__notifications{
+		transform: scale(1.16);
+		background-color: var(--color-primary-light);
 	}
 
 	&__user-photo{
