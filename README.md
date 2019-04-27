@@ -14,7 +14,7 @@ Designed by Jonas Schmedtmann, implemented by me.
 
 [![overview](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")
 
-####Responsiveness:
+#### Responsiveness:
 ---
 The website is fully responsive thanks to `flexbox`.
 
