@@ -675,11 +675,10 @@ body {
   position: absolute;
   top: 100%;
   right: 0;
-  width: 15rem;
+  width: 16rem;
   background-color: #fff;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
   border-radius: 3px;
-  overflow-y: scroll;
   z-index: 999;
   opacity: 0;
   visibility: hidden;
