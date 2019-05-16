@@ -1,5 +1,5 @@
-# [Trillo Hotel Booking - Front End](https://jayli3.github.io/trillo-front-end/ "Trillo Hotel Booking - Front End")
-`Live:` https://jayli3.github.io/trillo-front-end/
+# [Trillo Hotel Booking - Front End](https://jayli3n.github.io/trillo-front-end/ "Trillo Hotel Booking - Front End")
+`Live:` https://jayli3n.github.io/trillo-front-end/
 
 A mockup hotel booking site. Completed with HTML & CSS.
 
@@ -12,31 +12,31 @@ A mockup hotel booking site. Completed with HTML & CSS.
 ----
 Designed by Jonas Schmedtmann, implemented by me.
 
-[![overview](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")
+[![overview](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")
 
 ####Responsiveness:
 ---
 The website is fully responsive thanks to `flexbox`.
 
-[![responsive demo](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")
+[![responsive demo](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")
 
 
 #### Hover Menues:
 ---
 Hover menues are created with a `div` that is positioned `absolute`, and appears when hovered.
 
-[![search hover menu ](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")
+[![search hover menu ](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")
 
 ######Closer look:
 
-[![hover menu](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")
+[![hover menu](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")
 
 
 #### Buttons Animations:
 ---
 This is achieved by placing a `::before` pseudo element right ontop of the button anchor text. This pseudo element is initially at the far left, when hovered, it expands and fills it&apos;s parent&apos;s full width.
 
-[![button animations](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif02.gif?raw=true "button animations")](https://github.com/jayli3/trillo-front-end/blob/master/README_resources/gif02.gif?raw=true "button animations")
+[![button animations](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif02.gif?raw=true "button animations")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif02.gif?raw=true "button animations")
 
 ```scss
 &__item::before{

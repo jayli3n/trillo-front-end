@@ -316,11 +316,11 @@ body {
     .legal {
       display: none; } }
 
-.jayli3:link, .jayli3:visited {
+.jayli3n:link, .jayli3n:visited {
   color: #fff;
   text-decoration: underline; }
 
-.jayli3:hover {
+.jayli3n:hover {
   color: var(--color-grey-light-4); }
 
 .hotel-view {

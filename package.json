@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jayli3/trillo-front-end.git"
+    "url": "git+https://github.com/jayli3n/trillo-front-end.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "jayli3n",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jayli3/trillo-front-end/issues"
+    "url": "https://github.com/jayli3n/trillo-front-end/issues"
   },
-  "homepage": "https://github.com/jayli3/trillo-front-end#readme",
+  "homepage": "https://github.com/jayli3n/trillo-front-end#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "concat": "^1.0.3",
