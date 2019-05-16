@@ -27,7 +27,7 @@ Hover menues are created with a `div` that is positioned `absolute`, and appears
 
 [![search hover menu ](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")
 
-######Closer look:
+###### Closer look:
 
 [![hover menu](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")
 
